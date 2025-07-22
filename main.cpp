@@ -15,6 +15,7 @@ void Greet()
 {
     std::cout<<"Hello World!\n";
 }
+
 void Goodbye()
 {
     std::cout<<"Bye World!\n";
