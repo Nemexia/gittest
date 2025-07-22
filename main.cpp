@@ -19,6 +19,11 @@ int main()
 
     std::cout<<Calcer(17)<<'\n';
 
+    for(int i{}; i<100; ++i)
+    {
+        std::cout<<i<<'\n';
+    }
+
     std::cout<<"Bye World!\n";
 
     return 0;
