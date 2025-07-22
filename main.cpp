@@ -19,5 +19,7 @@ int main()
 
     std::cout<<Calcer(17)<<'\n';
 
+    std::cout<<"Bye World!\n";
+
     return 0;
 }
