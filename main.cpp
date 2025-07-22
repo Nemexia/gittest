@@ -11,9 +11,18 @@ int Calcer(const int cycles)
     return sum;
 }
 
-int main()
+void Greet()
 {
     std::cout<<"Hello World!\n";
+}
+void Goodbye()
+{
+    std::cout<<"Bye World!\n";
+}
+
+int main()
+{
+    Greet();
 
     IsItOn();
 
@@ -24,7 +33,7 @@ int main()
         std::cout<<i<<'\n';
     }
 
-    std::cout<<"Bye World!\n";
+    Goodbye();
 
     return 0;
 }
